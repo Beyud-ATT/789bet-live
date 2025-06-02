@@ -1,0 +1,350 @@
+import { Flex, Image, Typography } from "antd";
+import { useLayoutContext } from "../Index";
+import Logo from "../../components/Logo";
+import { Link } from "react-router";
+import { IoMdSettings } from "react-icons/io";
+import { BsFillSuitSpadeFill } from "react-icons/bs";
+import { FaAnglesRight } from "react-icons/fa6";
+import Ronaldinho from "../../assets/ronaldinho.png";
+import {
+  Footer1,
+  Footer2,
+  Footer3,
+  Footer4,
+  Footer5,
+  Footer6,
+  Footer7,
+  Footer8,
+  Footer9,
+  Footer10,
+  Footer11,
+  Footer12,
+} from "../../utils/svg";
+import FeedBack from "../../components/FeedBack";
+
+export default function BaseFooter() {
+  const { Footer } = useLayoutContext();
+
+  return (
+    <Footer className="lg:block hidden">
+      <Flex
+        vertical
+        justify="center"
+        align="center"
+        className="max-w-screen-xl mx-auto mt-12"
+        gap={24}
+      >
+        <Flex className="w-full">
+          <FeedBack />
+        </Flex>
+
+        <Flex className="w-full" justify="space-between">
+          <Flex vertical gap={8} className="w-1/4">
+            <Flex vertical align="center" gap={8}>
+              <Logo width={250} height={120} />
+              <h2 className="text-yellow-500 font-bold xl:text-xl text-sm mb-4">
+                NƠI CẢM XÚC KHÔNG GIỚI HẠN
+              </h2>
+            </Flex>
+            <p className="max-w-2xl text-gray-300 text-sm text-justify">
+              789BET là một nhà cái có giấy phép cá cược trực tuyến hợp pháp do
+              Isle of Man và Khu kinh tế Cagayan and Freeport cấp. Với bề dày
+              kinh nghiệm và đang tiếp phục vụ hơn 10 triệu người chơi...
+              <span className="cursor-pointer pl-2">Xem Thêm</span>
+            </p>
+          </Flex>
+
+          <div className="w-1/5">
+            <Typography.Title
+              level={3}
+              className="!text-white font-bold mb-4 flex gap-2 items-center xl:!text-2xl !text-lg"
+            >
+              <IoMdSettings />
+              <span>LIÊN KẾT NHANH</span>
+            </Typography.Title>
+            <ul className="space-y-3">
+              <li>
+                <Flex vertical gap={6}>
+                  <div className="flex items-center space-x-2">
+                    <FaAnglesRight />
+                    <Link
+                      to="#"
+                      className="text-gray-300 hover:text-white xl:!text-[16px] !text-[12px]"
+                    >
+                      Điều khoản điều kiện
+                    </Link>
+                  </div>
+                  <div className="w-full h-[1px] bg-gradient-to-r from-[#FFEE30] via-[#FF9900] to-[#5C3A06]"></div>
+                </Flex>
+              </li>
+              <li>
+                <Flex vertical gap={6}>
+                  <div className="flex items-center space-x-2">
+                    <FaAnglesRight />
+                    <Link
+                      to="#"
+                      className="text-gray-300 hover:text-white xl:!text-[16px] !text-[12px]"
+                    >
+                      Giới thiệu về 789BET
+                    </Link>
+                  </div>
+                  <div className="w-full h-[1px] bg-gradient-to-r from-[#FFEE30] via-[#FF9900] to-[#5C3A06]"></div>
+                </Flex>
+              </li>
+              <li>
+                <Flex vertical gap={6}>
+                  <div className="flex items-center space-x-2">
+                    <FaAnglesRight />
+                    <Link
+                      to="#"
+                      className="text-gray-300 hover:text-white xl:!text-[16px] !text-[12px]"
+                    >
+                      Miễn trừ trách nhiệm
+                    </Link>
+                  </div>
+                  <div className="w-full h-[1px] bg-gradient-to-r from-[#FFEE30] via-[#FF9900] to-[#5C3A06]"></div>
+                </Flex>
+              </li>
+              <li>
+                <Flex vertical gap={6}>
+                  <div className="flex items-center space-x-2">
+                    <FaAnglesRight />
+                    <Link
+                      to="/pivacy"
+                      className="text-gray-300 hover:text-white xl:!text-[16px] !text-[12px]"
+                    >
+                      Chính sách bảo mật
+                    </Link>
+                  </div>
+                  <div className="w-full h-[1px] bg-gradient-to-r from-[#FFEE30] via-[#FF9900] to-[#5C3A06]"></div>
+                </Flex>
+              </li>
+              <li>
+                <Flex vertical gap={6}>
+                  <div className="flex items-center space-x-2">
+                    <FaAnglesRight />
+                    <Link
+                      to="#"
+                      className="text-gray-300 hover:text-white xl:!text-[16px] !text-[12px]"
+                    >
+                      Câu hỏi thường gặp
+                    </Link>
+                  </div>
+                  <div className="w-full h-[1px] bg-gradient-to-r from-[#FFEE30] via-[#FF9900] to-[#5C3A06]"></div>
+                </Flex>
+              </li>
+              <li>
+                <Flex vertical gap={6}>
+                  <div className="flex items-center space-x-2">
+                    <FaAnglesRight />
+                    <Link
+                      to="#"
+                      className="text-gray-300 hover:text-white xl:!text-[16px] !text-[12px]"
+                    >
+                      Chơi có trách nhiệm
+                    </Link>
+                  </div>
+                  <div className="w-full h-[1px] bg-gradient-to-r from-[#FFEE30] via-[#FF9900] to-[#5C3A06]"></div>
+                </Flex>
+              </li>
+              <li>
+                <Flex vertical gap={6}>
+                  <div className="flex items-center space-x-2">
+                    <FaAnglesRight />
+                    <Link
+                      to="#"
+                      className="text-gray-300 hover:text-white xl:!text-[16px] !text-[12px]"
+                    >
+                      Hợp tác đại lý
+                    </Link>
+                  </div>
+                </Flex>
+              </li>
+            </ul>
+          </div>
+
+          <div className="w-1/5">
+            <Typography.Title
+              level={3}
+              className="!text-white font-bold mb-4 flex gap-2 items-center xl:!text-2xl !text-lg"
+            >
+              <BsFillSuitSpadeFill />
+              <span>TỔNG HỢP</span>
+            </Typography.Title>
+            <ul className="space-y-3">
+              <li>
+                <Flex vertical gap={6}>
+                  <div className="flex items-center space-x-2">
+                    <FaAnglesRight />
+                    <Link
+                      to="#"
+                      className="text-gray-300 hover:text-white capitalize xl:!text-[16px] !text-[12px]"
+                    >
+                      thể thao
+                    </Link>
+                  </div>
+                  <div className="w-full h-[1px] bg-gradient-to-r from-[#FFEE30] via-[#FF9900] to-[#5C3A06]"></div>
+                </Flex>
+              </li>
+              <li>
+                <Flex vertical gap={6}>
+                  <div className="flex items-center space-x-2">
+                    <FaAnglesRight />
+                    <Link
+                      to="#"
+                      className="text-gray-300 hover:text-white capitalize xl:!text-[16px] !text-[12px]"
+                    >
+                      casino
+                    </Link>
+                  </div>
+                  <div className="w-full h-[1px] bg-gradient-to-r from-[#FFEE30] via-[#FF9900] to-[#5C3A06]"></div>
+                </Flex>
+              </li>
+              <li>
+                <Flex vertical gap={6}>
+                  <div className="flex items-center space-x-2">
+                    <FaAnglesRight />
+                    <Link
+                      to="#"
+                      className="text-gray-300 hover:text-white capitalize xl:!text-[16px] !text-[12px]"
+                    >
+                      nổ hũ
+                    </Link>
+                  </div>
+                  <div className="w-full h-[1px] bg-gradient-to-r from-[#FFEE30] via-[#FF9900] to-[#5C3A06]"></div>
+                </Flex>
+              </li>
+              <li>
+                <Flex vertical gap={6}>
+                  <div className="flex items-center space-x-2">
+                    <FaAnglesRight />
+                    <Link
+                      to="#"
+                      className="text-gray-300 hover:text-white capitalize xl:!text-[16px] !text-[12px]"
+                    >
+                      bắn cá
+                    </Link>
+                  </div>
+                  <div className="w-full h-[1px] bg-gradient-to-r from-[#FFEE30] via-[#FF9900] to-[#5C3A06]"></div>
+                </Flex>
+              </li>
+              <li>
+                <Flex vertical gap={6}>
+                  <div className="flex items-center space-x-2">
+                    <FaAnglesRight />
+                    <Link
+                      to="#"
+                      className="text-gray-300 hover:text-white capitalize xl:!text-[16px] !text-[12px]"
+                    >
+                      game bài
+                    </Link>
+                  </div>
+                  <div className="w-full h-[1px] bg-gradient-to-r from-[#FFEE30] via-[#FF9900] to-[#5C3A06]"></div>
+                </Flex>
+              </li>
+              <li>
+                <Flex vertical gap={6}>
+                  <div className="flex items-center space-x-2">
+                    <FaAnglesRight />
+                    <Link
+                      to="#"
+                      className="text-gray-300 hover:text-white capitalize xl:!text-[16px] !text-[12px]"
+                    >
+                      đá gà
+                    </Link>
+                  </div>
+                  <div className="w-full h-[1px] bg-gradient-to-r from-[#FFEE30] via-[#FF9900] to-[#5C3A06]"></div>
+                </Flex>
+              </li>
+              <li>
+                <Flex vertical gap={6}>
+                  <div className="flex items-center space-x-2">
+                    <FaAnglesRight />
+                    <Link
+                      to="#"
+                      className="text-gray-300 hover:text-white capitalize xl:!text-[16px] !text-[12px]"
+                    >
+                      xổ số
+                    </Link>
+                  </div>
+                </Flex>
+              </li>
+            </ul>
+          </div>
+
+          <div className="relative h-fit">
+            <Typography.Title
+              level={3}
+              className="!text-white font-bold flex items-center !mb-0 xl:!text-2xl !text-lg"
+            >
+              <span>ĐẠI SỨ THƯƠNG HIỆU</span>
+            </Typography.Title>
+            <Image
+              src={Ronaldinho}
+              alt="Ronaldinho"
+              preview={false}
+              loading="lazy"
+            />
+            <div className="absolute bottom-2 left-0">
+              <p className="font-bold">Ronaldinho</p>
+              <p className="text-sm text-gray-400">Năm 2024 - 2025</p>
+            </div>
+          </div>
+        </Flex>
+
+        <Flex gap={4} align="center" justify="space-between" className="w-full">
+          <Footer1 />
+          <Footer2 />
+          <Footer3 />
+          <Footer4 />
+          <Footer5 />
+          <Footer6 />
+          <Footer7 />
+          <Footer8 />
+          <Footer9 />
+          <Footer10 />
+          <Footer11 />
+          <Footer12 />
+        </Flex>
+
+        <Flex
+          gap={4}
+          align="center"
+          justify="space-between"
+          className="text-gray-400 w-full"
+        >
+          <Link
+            to="/rule"
+            className="hover:text-white xl:text-[16px] text-[12px]"
+          >
+            Điều Khoản Và Điều Kiện
+          </Link>
+          <span>|</span>
+          <Link to="#" className="hover:text-white xl:text-[16px] text-[12px]">
+            Giới Thiệu Về 789BET
+          </Link>
+          <span>|</span>
+          <Link to="#" className="hover:text-white xl:text-[16px] text-[12px]">
+            Chơi Có Trách Nhiệm
+          </Link>
+          <span>|</span>
+          <Link to="#" className="hover:text-white xl:text-[16px] text-[12px]">
+            Miễn Trách Nhiệm
+          </Link>
+          <span>|</span>
+          <Link to="#" className="hover:text-white xl:text-[16px] text-[12px]">
+            Quyền Riêng Tư Tại 789BET
+          </Link>
+          <span>|</span>
+          <Link to="#" className="hover:text-white xl:text-[16px] text-[12px]">
+            Những Câu Hỏi Thường Gặp
+          </Link>
+        </Flex>
+
+        <div className="text-center text-gray-500 text-lg">
+          Copyright © 789BET.com Reserved
+        </div>
+      </Flex>
+    </Footer>
+  );
+}
