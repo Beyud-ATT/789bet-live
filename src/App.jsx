@@ -16,10 +16,10 @@ import { BareChatFrame } from "./pages/Live/Chat.jsx";
 import BlackList from "./pages/User/BlackList/Index.jsx";
 import { ErrorBoundary } from "react-error-boundary";
 import Error500 from "./pages/500.jsx";
-import Gift from "./pages/Gift/Index.jsx";
-import GiftDetail from "./pages/Gift/Detail/Index.jsx";
-import { Flex } from "antd";
-import Logo from "./components/Logo.jsx";
+// import Gift from "./pages/Gift/Index.jsx";
+// import GiftDetail from "./pages/Gift/Detail/Index.jsx";
+// import { Flex } from "antd";
+// import Logo from "./components/Logo.jsx";
 
 function App() {
   const { isIdol } = useAuth();
@@ -49,8 +49,8 @@ function App() {
           </Route>
           <Route path="/rule" element={<Rule />} />
           <Route path="/privacy" element={<Privacy />} />
-          <Route path="/gift" element={<Gift />} />
-          <Route path="/gift/:id" element={<GiftDetail />} />
+          {/* <Route path="/gift" element={<Gift />} />
+          <Route path="/gift/:id" element={<GiftDetail />} /> */}
           <Route path="*" element={<NotFound />} />
         </Route>
         <Route path="/chat-box/:id" element={<BareChatFrame />} />
