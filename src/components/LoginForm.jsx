@@ -1,4 +1,4 @@
-import { Button, Checkbox, Flex, Form, Image, Input, Typography } from "antd";
+import { Button, Flex, Form, Image, Input } from "antd";
 import Logo from "./Logo";
 import { FaRegEye, FaRegEyeSlash } from "react-icons/fa6";
 import { useAuth } from "../contexts/AuthContext";
@@ -7,6 +7,7 @@ import { GoogleAuthProvider } from "../contexts/GoogleAuthContext";
 import { useModal } from "./CompoundModal";
 import ForgotPassword from "./ForgotPassword";
 import { useEffect, useState } from "react";
+import LogoLogin from "../assets/logo-login.png";
 
 export default function LoginForm() {
   const { login } = useAuth();
@@ -39,10 +40,7 @@ export default function LoginForm() {
   return (
     <div className="rounded-2xl py-3 md:px-3 px-1 w-full">
       <div className="flex flex-col justify-center items-center mb-8">
-        <Logo width={220} height={100} />
-        <Typography className="text-xl font-bold !text-[#FEAC00] uppercase mt-2">
-          nơi cảm xúc không giới hạn
-        </Typography>
+        <Logo width={"auto"} height={"auto"} src={LogoLogin} preview={false} />
       </div>
       <Form
         form={form}

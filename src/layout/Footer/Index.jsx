@@ -70,11 +70,6 @@ export default function BaseFooter() {
             khăn, lan tỏa tinh thần nhân ái đến cộng đồng.
           </p>
           <p>
-            - Chăm sóc khách hàng VIP: Mang đến dịch vụ nghỉ dưỡng và thư giãn
-            đẳng cấp, giúp khách hàng tận hưởng những khoảnh khắc thăng hoa cùng
-            Nam Thần, Mỹ Nữ.
-          </p>
-          <p>
             - Kết nối cộng đồng: Hàng tháng,{" "}
             <span className="text-[var(--color-brand-primary)] font-medium">
               789BET
@@ -84,9 +79,15 @@ export default function BaseFooter() {
             tôi với cộng đồng đam mê cá cược trực tuyến.
           </p>
           <p>
+            Trở thành đại lý 789BET ngay hôm nay - nhận hoa hồng lên tới 60%
+            cùng thưởng 200.000 VND cho mỗi hội viên hợp lệ. 789BET cam kết 4
+            KHÔNG: Không đặt cọc - Không cần vốn - Không chờ đợi - Không rủi ro.
+            Khởi đầu dễ dàng, thu nhập ổn định, bền vững mỗi tháng!
+          </p>
+          <p>
             Chúng tôi hiểu rằng không thể tránh khỏi những thiếu sót trong quá
             trình tổ chức các sự kiện, đặc biệt là các buổi phát trực tiếp.
-            <span className="text-[var(--color-brand-primary)] font-medium">
+            <span className="ml-1 text-[var(--color-brand-primary)] font-medium">
               789BET
             </span>
             luôn trân trọng mọi góp ý từ khách hàng để ngày càng hoàn thiện và

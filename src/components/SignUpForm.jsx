@@ -1,4 +1,4 @@
-import { Button, Col, Form, Image, Input, Row, Typography } from "antd";
+import { Button, Col, Form, Image, Input, Row } from "antd";
 import Logo from "./Logo";
 import { FaRegEye, FaRegEyeSlash } from "react-icons/fa6";
 import { useEffect, useRef, useState } from "react";
@@ -6,6 +6,7 @@ import { useAuth } from "../contexts/AuthContext";
 import PhoneInputField from "./PhoneInputField";
 import { useModal } from "./CompoundModal";
 import useRecaptcha from "../hooks/useRecaptcha";
+import LogoLogin from "../assets/logo-login.png";
 
 export default function SignUpForm() {
   const phoneNumberRef = useRef(null);
@@ -37,10 +38,7 @@ export default function SignUpForm() {
   return (
     <div className="py-3 md:px-3 px-1">
       <div className="flex flex-col justify-center items-center mb-8">
-        <Logo width={220} height={100} />
-        <Typography className="text-xl font-bold !text-[#FEAC00] uppercase mt-2">
-          nơi cảm xúc không giới hạn
-        </Typography>
+        <Logo width={"auto"} height={"auto"} src={LogoLogin} preview={false} />
       </div>
 
       <Form

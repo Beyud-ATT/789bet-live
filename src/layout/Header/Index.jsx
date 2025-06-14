@@ -70,8 +70,9 @@ export default function BaseHeader({ ...rest }) {
           </Flex>
           <Marquee className="text-[white] overflow-hidden">
             <span>
-              💎NHANH, RẤT NHANH VÀ NHANH HƠN NỮA! 💎UY TÍN, RẤT UY TÍN VÀ LUÔN
-              UY TÍN! 💥 SIÊU THƯỞNG NẠP ĐẦU TẶNG 100%, CHỈ 1 VÒNG CƯỢC
+              CASINO, TÔI CHỈ CHỌN 789BET SIÊU THƯỞNG NẠP ĐẦU TẶNG 100%, CHỈ 1
+              VÒNG CƯỢC TẶNG NGAY 50K KHI TẢI APP ĐĂNG KÝ TÀI KHOẢN QUÀ TẶNG CAO
+              CẤP, GIÁ TRỊ THIẾT THỰC TRAO TAY
             </span>
           </Marquee>
         </Flex>

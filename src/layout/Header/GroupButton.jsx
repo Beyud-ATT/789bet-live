@@ -16,7 +16,7 @@ export default function GroupButton() {
               <Button
                 id="signup-button"
                 variant="filled"
-                className="!bg-[var(--color-brand-primary-lighter)] hover:!bg-[var(--color-brand-primary)] !text-[white] border-none rounded-full lg:!text-base md:!text-[12px] !text-[10px]"
+                className="!bg-[var(--color-brand-primary-lighter)] hover:!bg-[var(--color-brand-primary)] !text-[white] border-none rounded-full lg:!text-base md:!text-[12px] !text-[10px] uppercase font-semibold"
                 onClick={openModal}
               >
                 Đăng ký
@@ -45,7 +45,7 @@ export default function GroupButton() {
             render={(openModal) => (
               <Button
                 id="login-button"
-                className="!bg-[transparent] !text-[var(--color-brand-primary-lighter)] border-[var(--color-brand-primary-lighter)] rounded-full lg:!text-base md:!text-[12px] !text-[10px] hover:!text-[var(--color-brand-primary)] hover:!border-[var(--color-brand-primary)]"
+                className="!bg-[transparent] !text-[var(--color-brand-primary-lighter)] border-[var(--color-brand-primary-lighter)] rounded-full lg:!text-base md:!text-[12px] !text-[10px] hover:!text-[var(--color-brand-primary)] hover:!border-[var(--color-brand-primary)] uppercase font-semibold"
                 onClick={openModal}
               >
                 Đăng nhập

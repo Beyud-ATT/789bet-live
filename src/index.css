@@ -285,4 +285,13 @@
     background-color: #f97316; /* Tailwind orange-500 */
     border-radius: 6px;
   }
+
+  .ant-menu-light {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .ant-menu-horizontal .ant-menu-item {
+    padding: 0 30px;
+  }
 }
