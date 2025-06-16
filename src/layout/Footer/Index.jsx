@@ -20,9 +20,9 @@ export default function BaseFooter() {
         >
           <p>
             <span className="text-[var(--color-brand-primary)]">789BET</span> -
-            NỀN TẢNG CÁ CƯỢC
+            NỀN TẢNG GIẢI TRÍ ĐỈNH CAO
           </p>
-          <p>TRỰC TUYẾN CHẤT LƯỢNG CAO</p>
+          <p>CHO TRẢI NGHIỆM KHÔNG GIỚI HẠN</p>
         </Flex>
 
         <Flex
@@ -32,42 +32,39 @@ export default function BaseFooter() {
           gap={3}
         >
           <p>
-            Hiện nay, thị trường cá cược trực tuyến đang đối mặt với tình trạng
-            nhiều nhà cái mạo danh, thiếu uy tín, lợi dụng lòng tin của người
-            chơi để lừa đảo - yêu cầu nạp tiền nhưng không cho rút tiền. Điều
-            này đã gây ra không ít bức xúc và tranh cãi trong cộng đồng đam mê
-            cá cược.
+            <span className="text-[var(--color-brand-primary)]">789BET</span> tự
+            hào là đơn vị tiên phong trong việc xây dựng một môi trường cá cược
+            minh bạch, an toàn và có trách nhiệm. Chúng tôi cam kết mang lại giá
+            trị đích thực cho cộng đồng người chơi thông qua các hoạt động cụ
+            thể và định hướng rõ ràng với những tiêu chuẩn và cam kết sau:
           </p>
           <p>
-            Với mong muốn tạo ra sự khác biệt và mang đến những giá trị đẳng
-            cấp,{" "}
-            <span className="text-[var(--color-brand-primary)] font-medium">
-              789BET
-            </span>{" "}
-            tự hào là đơn vị tiên phong trong việc xây dựng một môi trường giải
-            trí lành mạnh, minh bạch và trách nhiệm. Bên cạnh việc cung cấp dịch
-            vụ cá cược chất lượng, chúng tôi còn chú trọng đến các hoạt động ý
-            nghĩa hướng đến cộng đồng và khách hàng:
+            ➡️ Hỗ trợ tận tâm: Đội ngũ chăm sóc khách hàng chuyên nghiệp luôn
+            sẵn sàng đồng hành và hỗ trợ mọi vấn đề kịp thời, đảm bảo quyền lợi
+            cho người chơi trong suốt quá trình trải nghiệm tại{" "}
+            <span className="text-[var(--color-brand-primary)]">789BET</span>.
           </p>
           <p>
-            - Hỗ trợ tận tâm: Luôn đồng hành và hỗ trợ khách hàng trong mọi tình
-            huống, đặc biệt là xử lý khiếu nại khi người chơi gặp khó khăn trong
-            quá trình tham gia tại{" "}
-            <span className="text-[var(--color-brand-primary)] font-medium">
-              789BET
+            ➡️ Thương hiệu quốc tế: Hợp tác cùng huyền thoại bóng đá{" "}
+            <span className="text-[var(--color-brand-primary)]">
+              Luis Suárez
             </span>
-            .
+            , một bước tiến khẳng định vị thế và uy tín toàn cầu của{" "}
+            <span className="text-[var(--color-brand-primary)]">789BET</span>.
           </p>
           <p>
-            - Thương hiệu quốc tế - Hợp tác cùng huyền thoại bóng đá{" "}
-            <span className="text-[var(--color-brand-primary)] font-medium">
-              Luis Suarez
-            </span>
-            , khẳng định vị thế toàn cầu.
+            ➡️ Trách nhiệm xã hội:{" "}
+            <span className="text-[var(--color-brand-primary)]">789BET</span>{" "}
+            tích cực tham gia các hoạt động thiện nguyện, lan tỏa thông điệp yêu
+            thương và chia sẻ đến những hoàn cảnh khó khăn trên khắp mọi miền
+            Đất Nước.
           </p>
           <p>
-            - Hoạt động thiện nguyện: Chung tay giúp đỡ những hoàn cảnh khó
-            khăn, lan tỏa tinh thần nhân ái đến cộng đồng.
+            ➡️ Gắn kết cộng đồng: Mỗi tháng,{" "}
+            <span className="text-[var(--color-brand-primary)]">789BET</span>{" "}
+            chi hàng tỷ đồng để tổ chức các buổi livestream tặng code, quà tặng
+            miễn phí như lời tri ân sâu sắc và là cầu nối giữa thương hiệu với
+            cộng đồng đam mê cá cược trực tuyến.
           </p>
           <p>
             - Kết nối cộng đồng: Hàng tháng,{" "}
@@ -79,19 +76,22 @@ export default function BaseFooter() {
             tôi với cộng đồng đam mê cá cược trực tuyến.
           </p>
           <p>
-            Trở thành đại lý 789BET ngay hôm nay - nhận hoa hồng lên tới 60%
-            cùng thưởng 200.000 VND cho mỗi hội viên hợp lệ. 789BET cam kết 4
-            KHÔNG: Không đặt cọc - Không cần vốn - Không chờ đợi - Không rủi ro.
-            Khởi đầu dễ dàng, thu nhập ổn định, bền vững mỗi tháng!
+            ➡️ Hợp tác đại lý: Bước đệm tài chính bền vững, chương trình đại lý
+            <span className="text-[var(--color-brand-primary)]">
+              789BET
+            </span>{" "}
+            mang đến cơ hội thu nhập hấp dẫn với hoa hồng lên đến 60%. Cam kết
+            “4 KHÔNG” - Không đặt cọc, Không cần vốn, Không chờ đợi, Không rủi
+            ro - giúp bạn khởi đầu dễ dàng, phát triển ổn định và bền vững.
           </p>
           <p>
-            Chúng tôi hiểu rằng không thể tránh khỏi những thiếu sót trong quá
-            trình tổ chức các sự kiện, đặc biệt là các buổi phát trực tiếp.
-            <span className="ml-1 text-[var(--color-brand-primary)] font-medium">
-              789BET
-            </span>
-            luôn trân trọng mọi góp ý từ khách hàng để ngày càng hoàn thiện và
-            phục vụ tốt hơn.
+            Chúng tôi hiểu rằng trong quá trình tổ chức các sự kiện, đặc biệt là
+            các buổi livestream, đôi khi không thể tránh khỏi những thiếu sót
+            ngoài ý muốn.{" "}
+            <span className="text-[var(--color-brand-primary)]">789BET</span>{" "}
+            luôn lắng nghe và trân trọng mọi ý kiến đóng góp từ khách hàng, xem
+            đó là động lực để không ngừng hoàn thiện chất lượng dịch vụ và mang
+            đến trải nghiệm tốt nhất cho cộng đồng người chơi.
           </p>
         </Flex>
 
