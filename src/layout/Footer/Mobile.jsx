@@ -44,11 +44,6 @@ export default function MobileFooter() {
           lan tỏa tinh thần nhân ái đến cộng đồng.
         </p>
         <p>
-          ⭐Chăm sóc khách hàng VIP: Mang đến dịch vụ nghỉ dưỡng và thư giãn
-          đẳng cấp, giúp khách hàng tận hưởng những khoảnh khắc thăng hoa cùng
-          Nam Thần, Mỹ Nữ.
-        </p>
-        <p>
           ⭐Kết nối cộng đồng: Hàng tháng, 789BET chi hàng tỷ đồng để tổ chức
           các buổi livestream tặng code, quà tặng miễn phí – như một món quà tri
           ân và là cầu nối gắn kết giữa chúng tôi với cộng đồng đam mê cá cược
