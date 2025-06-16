@@ -61,15 +61,19 @@ const TopNav = ({ props }) => {
       //     </Link>
       //   ),
       // },
-      // {
-      //   label: "Quà Tặng",
-      //   key: "gift",
-      //   render: (props) => (
-      //     <Link to="/gift" {...props}>
-      //       Quà Tặng
-      //     </Link>
-      //   ),
-      // },
+      {
+        label: (
+          <Link to={import.meta.env.VITE_GIFT_URL} target="_blank">
+            Quà Tặng
+          </Link>
+        ),
+        key: "gift",
+        render: (props) => (
+          <Link to={import.meta.env.VITE_GIFT_URL} target="_blank" {...props}>
+            Quà Tặng
+          </Link>
+        ),
+      },
       {
         label: (
           <Link to={linkApp} target="_blank">
