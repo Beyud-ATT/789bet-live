@@ -102,13 +102,17 @@ const TopNav = ({ props }) => {
       },
       {
         label: (
-          <Link to={linkCode} target="_blank">
+          <Link to={import.meta.env.VITE_CONTACT_URL} target="_blank">
             Liên hệ
           </Link>
         ),
         key: "contact",
         render: (props) => (
-          <Link to={linkCode} target="_blank" {...props}>
+          <Link
+            to={import.meta.env.VITE_CONTACT_URL}
+            target="_blank"
+            {...props}
+          >
             Liên hệ
           </Link>
         ),
