@@ -19,10 +19,12 @@ export default function BaseFooter() {
           className="uppercase font-bold text-center text-lg text-white mx-auto mb-2"
         >
           <p>
-            <span className="text-[var(--color-brand-primary)]">789BET</span> -
-            NỀN TẢNG GIẢI TRÍ ĐỈNH CAO
+            <span className="text-[var(--color-brand-primary)] font-bold">
+              789BET
+            </span>{" "}
+            - NỀN TẢNG GIẢI TRÍ ĐỈNH CAO
           </p>
-          <p>CHO TRẢI NGHIỆM KHÔNG GIỚI HẠN</p>
+          <p>CHO BẠN TRẢI NGHIỆM KHÔNG GIỚI HẠN</p>
         </Flex>
 
         <Flex
@@ -32,43 +34,56 @@ export default function BaseFooter() {
           gap={3}
         >
           <p>
-            <span className="text-[var(--color-brand-primary)]">789BET</span> tự
-            hào là đơn vị tiên phong trong việc xây dựng một môi trường cá cược
-            minh bạch, an toàn và có trách nhiệm. Chúng tôi cam kết mang lại giá
-            trị đích thực cho cộng đồng người chơi thông qua các hoạt động cụ
-            thể và định hướng rõ ràng với những tiêu chuẩn và cam kết sau:
+            <span className="text-[var(--color-brand-primary)] font-bold">
+              789BET
+            </span>{" "}
+            tự hào là đơn vị tiên phong trong việc xây dựng một môi trường cá
+            cược minh bạch, an toàn và có trách nhiệm. Chúng tôi cam kết mang
+            lại giá trị đích thực cho cộng đồng người chơi thông qua các hoạt
+            động cụ thể và định hướng rõ ràng với những tiêu chuẩn và cam kết
+            sau:
           </p>
           <p>
-            ➡️ Hỗ trợ tận tâm: Đội ngũ chăm sóc khách hàng chuyên nghiệp luôn
+            ⭐ Hỗ trợ tận tâm: Đội ngũ chăm sóc khách hàng chuyên nghiệp luôn
             sẵn sàng đồng hành và hỗ trợ mọi vấn đề kịp thời, đảm bảo quyền lợi
             cho người chơi trong suốt quá trình trải nghiệm tại{" "}
-            <span className="text-[var(--color-brand-primary)]">789BET</span>.
+            <span className="text-[var(--color-brand-primary)] font-bold">
+              789BET
+            </span>
+            .
           </p>
           <p>
-            ➡️ Thương hiệu quốc tế: Hợp tác cùng huyền thoại bóng đá{" "}
-            <span className="text-[var(--color-brand-primary)]">
+            ⭐ Thương hiệu quốc tế: Hợp tác cùng huyền thoại bóng đá{" "}
+            <span className="text-[var(--color-brand-primary)] font-bold">
               Luis Suárez
             </span>
             , một bước tiến khẳng định vị thế và uy tín toàn cầu của{" "}
-            <span className="text-[var(--color-brand-primary)]">789BET</span>.
+            <span className="text-[var(--color-brand-primary)] font-bold">
+              789BET
+            </span>
+            .
           </p>
           <p>
-            ➡️ Trách nhiệm xã hội:{" "}
-            <span className="text-[var(--color-brand-primary)]">789BET</span>{" "}
+            ⭐ Trách nhiệm xã hội:{" "}
+            <span className="text-[var(--color-brand-primary)] font-bold">
+              789BET
+            </span>{" "}
             tích cực tham gia các hoạt động thiện nguyện, lan tỏa thông điệp yêu
             thương và chia sẻ đến những hoàn cảnh khó khăn trên khắp mọi miền
             Đất Nước.
           </p>
           <p>
-            ➡️ Gắn kết cộng đồng: Mỗi tháng,{" "}
-            <span className="text-[var(--color-brand-primary)]">789BET</span>{" "}
+            ⭐ Gắn kết cộng đồng: Mỗi tháng,{" "}
+            <span className="text-[var(--color-brand-primary)] font-bold">
+              789BET
+            </span>{" "}
             chi hàng tỷ đồng để tổ chức các buổi livestream tặng code, quà tặng
             miễn phí như lời tri ân sâu sắc và là cầu nối giữa thương hiệu với
             cộng đồng đam mê cá cược trực tuyến.
           </p>
           <p>
-            - Kết nối cộng đồng: Hàng tháng,{" "}
-            <span className="text-[var(--color-brand-primary)] font-medium">
+            ⭐ Kết nối cộng đồng: Hàng tháng,{" "}
+            <span className="text-[var(--color-brand-primary)] font-bold">
               789BET
             </span>{" "}
             chi hàng tỷ đồng để tổ chức các buổi livestream tặng code, quà tặng
@@ -76,8 +91,8 @@ export default function BaseFooter() {
             tôi với cộng đồng đam mê cá cược trực tuyến.
           </p>
           <p>
-            ➡️ Hợp tác đại lý: Bước đệm tài chính bền vững, chương trình đại lý
-            <span className="text-[var(--color-brand-primary)]">
+            ⭐ Hợp tác đại lý: Bước đệm tài chính bền vững, chương trình đại lý{" "}
+            <span className="text-[var(--color-brand-primary)] font-bold">
               789BET
             </span>{" "}
             mang đến cơ hội thu nhập hấp dẫn với hoa hồng lên đến 60%. Cam kết
@@ -88,7 +103,9 @@ export default function BaseFooter() {
             Chúng tôi hiểu rằng trong quá trình tổ chức các sự kiện, đặc biệt là
             các buổi livestream, đôi khi không thể tránh khỏi những thiếu sót
             ngoài ý muốn.{" "}
-            <span className="text-[var(--color-brand-primary)]">789BET</span>{" "}
+            <span className="text-[var(--color-brand-primary)] font-bold">
+              789BET
+            </span>{" "}
             luôn lắng nghe và trân trọng mọi ý kiến đóng góp từ khách hàng, xem
             đó là động lực để không ngừng hoàn thiện chất lượng dịch vụ và mang
             đến trải nghiệm tốt nhất cho cộng đồng người chơi.
