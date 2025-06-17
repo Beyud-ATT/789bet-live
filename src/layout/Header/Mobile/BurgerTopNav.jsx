@@ -93,6 +93,19 @@ export default function BurgerTopNav() {
           </Link>
         ),
       },
+      {
+        label: (
+          <Link to={linkCode} target="_blank">
+            Liên hệ
+          </Link>
+        ),
+        key: "contact",
+        render: (props) => (
+          <Link to={linkCode} target="_blank" {...props}>
+            Liên hệ
+          </Link>
+        ),
+      },
     ],
     [linkApp, linkCode]
   );
