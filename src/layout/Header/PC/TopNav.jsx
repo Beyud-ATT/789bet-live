@@ -5,7 +5,7 @@ import useGetGeneralLinks from "../../../hooks/useGetGeneralLinks";
 
 const TopNav = ({ props }) => {
   const { generalLinks } = useGetGeneralLinks();
-  const { linkApp, linkCode } = generalLinks?.data?.data || {};
+  const { linkApp, linkCode, linkWeb } = generalLinks?.data?.data || {};
 
   const pathname = useLocation().pathname.replace("/", "");
   const parsedPath = useMemo(() => {
@@ -23,11 +23,11 @@ const TopNav = ({ props }) => {
   const items = useMemo(
     () => [
       {
-        label: <Link to="/">Trang chủ</Link>,
+        label: <Link to={linkWeb}>Trang chủ</Link>,
         key: "home",
         render: (props) => {
           return (
-            <Link to="/" {...props}>
+            <Link to={linkWeb} {...props}>
               Trang chủ
             </Link>
           );

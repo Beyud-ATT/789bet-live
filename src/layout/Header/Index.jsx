@@ -10,9 +10,13 @@ import { Link } from "react-router";
 import UserActionDropdown from "./PC/UserActionDropDown";
 import DeviceProvider from "../../contexts/ResponsiveContext";
 import UserActionDrawer from "./Mobile/UserActionDrawer";
+import useGetGeneralLinks from "../../hooks/useGetGeneralLinks";
 
 export default function BaseHeader({ ...rest }) {
   const { Header } = useLayoutContext();
+  const { generalLinks } = useGetGeneralLinks();
+  const { linkWeb } = generalLinks?.data?.data || {};
+
   return (
     <Header {...rest}>
       <Flex
@@ -23,7 +27,7 @@ export default function BaseHeader({ ...rest }) {
         <DeviceProvider.MOBILE>
           <BurgerTopNav />
         </DeviceProvider.MOBILE>
-        <Link to="/">
+        <Link to={linkWeb}>
           <Logo />
         </Link>
 
