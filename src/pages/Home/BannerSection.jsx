@@ -7,12 +7,12 @@ import useGetGeneralLinks from "../../hooks/useGetGeneralLinks";
 
 export default function BannerSection() {
   const { generalLinks } = useGetGeneralLinks();
-  const { linkWeb, linkApp } = generalLinks?.data?.data || {};
+  const { linkApp } = generalLinks?.data?.data || {};
   return (
     <div>
       <Flex className="w-full">
         <Flex className="md:w-[80%] w-full">
-          <Link to={linkWeb} target="_blank">
+          <Link to={`https://cskh99.com/daily789betPC`} target="_blank">
             <Image
               src={Banner}
               alt="Banner Main"
