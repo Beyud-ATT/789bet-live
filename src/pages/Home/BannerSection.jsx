@@ -1,7 +1,6 @@
-import { Button, Flex, Image } from "antd";
-import Banner from "../../assets/banner-main.png";
+import { Flex, Image } from "antd";
+import Banner from "../../assets/banner-main.gif";
 import DownloadNow from "../../assets/download-now.gif";
-import { Hono } from "../../utils/svg";
 import { Link } from "react-router";
 import useGetGeneralLinks from "../../hooks/useGetGeneralLinks";
 
