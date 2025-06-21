@@ -1,6 +1,6 @@
 import { Button, Flex, Image } from "antd";
 import Banner from "../../assets/banner-main.png";
-import DownloadNow from "../../assets/download-now.png";
+import DownloadNow from "../../assets/download-now.gif";
 import { Hono } from "../../utils/svg";
 import { Link } from "react-router";
 import useGetGeneralLinks from "../../hooks/useGetGeneralLinks";
@@ -37,12 +37,12 @@ export default function BannerSection() {
                 wrapperClassName="max-w-[218px]"
               />
             </Link>
-            <Button
+            {/* <Button
               variant="solid"
               className="w-[85%] bg-[var(--color-brand-primary-lighter)] hover:!bg-[var(--color-brand-primary)] border-none cursor-pointer text-white hover:!text-gray-100 px-4 py-2 rounded-lg font-bold"
             >
               <Hono /> KÊNH LIVE HOT
-            </Button>
+            </Button> */}
           </Flex>
         </Flex>
       </Flex>

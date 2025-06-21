@@ -23,11 +23,15 @@ const TopNav = ({ props }) => {
   const items = useMemo(
     () => [
       {
-        label: <Link to={linkWeb}>Trang chủ</Link>,
+        label: (
+          <Link to={linkWeb} target="_blank">
+            Trang chủ
+          </Link>
+        ),
         key: "home",
         render: (props) => {
           return (
-            <Link to={linkWeb} {...props}>
+            <Link to={linkWeb} target="_blank" {...props}>
               Trang chủ
             </Link>
           );

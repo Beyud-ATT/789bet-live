@@ -27,8 +27,10 @@ export default function BaseHeader({ ...rest }) {
         <DeviceProvider.MOBILE>
           <BurgerTopNav />
         </DeviceProvider.MOBILE>
-        <Link to={linkWeb}>
-          <Logo />
+        <Link to={linkWeb} target="_blank">
+          <div className="max-[425px]:translate-x-8 max-[425px]:translate-y-1">
+            <Logo />
+          </div>
         </Link>
 
         <DeviceProvider.PC>

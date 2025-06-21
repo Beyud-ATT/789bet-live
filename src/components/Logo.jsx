@@ -9,8 +9,8 @@ export default function Logo(props) {
         alt="logo"
         loading="lazy"
         preview={false}
-        width={124}
-        height={44}
+        width={150}
+        height={55}
         {...props}
       />
     </>
