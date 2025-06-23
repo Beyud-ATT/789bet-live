@@ -37,7 +37,9 @@ function BaseLayout() {
           >
             <Outlet />
           </BaseContent>
-          {!isGiftPage && !isUserPage && !isLiveMobilePage && <BaseFooter />}
+          {!isGiftPage && !isUserPage && !isLiveMobilePage && !isLivePage && (
+            <BaseFooter />
+          )}
         </Layout>
       </Flex>
     </LayoutContext.Provider>
