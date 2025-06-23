@@ -2,7 +2,7 @@ import { Flex, Image } from "antd";
 import { useLayoutContext } from "../Index";
 import Logo from "../../components/Logo";
 import TopNav from "./PC/TopNav";
-import GroupButton from "./GroupButton";
+import GroupButtonPC from "./PC/GroupButton";
 import Marquee from "react-fast-marquee";
 import Speaker from "../../assets/speaker.gif";
 import BurgerTopNav from "./Mobile/BurgerTopNav";
@@ -11,6 +11,7 @@ import UserActionDropdown from "./PC/UserActionDropDown";
 import DeviceProvider from "../../contexts/ResponsiveContext";
 import UserActionDrawer from "./Mobile/UserActionDrawer";
 import useGetGeneralLinks from "../../hooks/useGetGeneralLinks";
+import PlaceHolderFlag from "./Mobile/PlaceHolderFlag";
 
 export default function BaseHeader({ ...rest }) {
   const { Header } = useLayoutContext();
@@ -28,7 +29,7 @@ export default function BaseHeader({ ...rest }) {
           <BurgerTopNav />
         </DeviceProvider.MOBILE>
         <Link to={linkWeb} target="_blank">
-          <div className="max-[425px]:translate-x-8 max-[425px]:translate-y-1">
+          <div className="max-[425px]:translate-x-2 max-[425px]:translate-y-1">
             <Logo />
           </div>
         </Link>
@@ -43,7 +44,8 @@ export default function BaseHeader({ ...rest }) {
           <UserActionDrawer />
         </DeviceProvider.TABLET>
 
-        <GroupButton />
+        <GroupButtonPC />
+        <PlaceHolderFlag />
         <DeviceProvider.MOBILE>
           <UserActionDrawer />
         </DeviceProvider.MOBILE>

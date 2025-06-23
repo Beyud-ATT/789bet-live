@@ -1,7 +1,7 @@
 // import IdolHot from "../../components/IdolTop";
 import NewsTab from "../../components/NewsTab";
 // import OnlineTable from "../../components/OnlineTable";
-import PromotionSlider from "../../components/PromotionSlide";
+// import PromotionSlider from "../../components/PromotionSlide";
 // import TopInteraction from "../../components/TopInteraction";
 import BannerSection from "./BannerSection";
 import LiveSection from "./LiveSection";

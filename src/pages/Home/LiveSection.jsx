@@ -3,6 +3,7 @@ import useLiveHot from "../../hooks/useLiveHot";
 import LivestreamPlayer from "../../components/VideoPlayer";
 import { useEffect, useState } from "react";
 import DefaultBanner from "../../assets/default-banner.webp";
+import GroupButtonMobile from "./GroupButtonMobile";
 
 const LiveSection = () => {
   const { data, isLoading } = useLiveHot();
@@ -23,6 +24,10 @@ const LiveSection = () => {
       {/* Main Stream */}
       <Col xs={{ flex: "100%" }} md={{ flex: "80%" }}>
         <LivestreamPlayer liveId={selectedStream} />
+      </Col>
+
+      <Col xs={{ flex: "100%" }} md={{ flex: "0%" }}>
+        <GroupButtonMobile />
       </Col>
 
       {/* Side Streams */}

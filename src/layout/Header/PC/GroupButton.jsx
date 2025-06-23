@@ -1,15 +1,15 @@
 import { Button, Flex } from "antd";
-import { CompoundModal } from "../../components/CompoundModal";
-import LoginForm from "../../components/LoginForm";
-import SignUpForm from "../../components/SignUpForm";
-import { useAuth } from "../../contexts/AuthContext";
+import { CompoundModal } from "../../../components/CompoundModal";
+import LoginForm from "../../../components/LoginForm";
+import SignUpForm from "../../../components/SignUpForm";
+import { useAuth } from "../../../contexts/AuthContext";
 
-export default function GroupButton() {
+export default function GroupButtonPC() {
   const { isAuthenticated } = useAuth();
 
   return (
     !isAuthenticated && (
-      <Flex className="md:gap-3 gap-2 md:flex-row flex-col">
+      <Flex className="md:gap-3 gap-2 md:flex-row flex-col hidden md:flex">
         <CompoundModal>
           <CompoundModal.Trigger
             render={(openModal) => (
