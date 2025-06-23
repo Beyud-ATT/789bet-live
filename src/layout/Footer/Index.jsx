@@ -11,7 +11,7 @@ export default function BaseFooter() {
         vertical
         justify="center"
         align="center"
-        className="max-w-screen-xl mx-auto mt-12"
+        className="max-w-screen-xl mx-auto md:mt-12 mt-2"
         gap={24}
       >
         <Flex
@@ -30,7 +30,7 @@ export default function BaseFooter() {
         <Flex
           vertical
           align="start"
-          className="text-white text-justify mb-5"
+          className="text-white text-justify md:mb-5 mb-2"
           gap={3}
         >
           <p>
