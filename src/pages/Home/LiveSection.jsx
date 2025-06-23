@@ -20,7 +20,7 @@ const LiveSection = () => {
   }, [liveData]);
 
   return (
-    <Row className="md:pt-4 pt-2">
+    <Row className="md:pt-4 pt-2.5">
       {/* Main Stream */}
       <Col xs={{ flex: "100%" }} md={{ flex: "80%" }}>
         <LivestreamPlayer liveId={selectedStream} />
