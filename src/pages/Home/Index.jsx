@@ -27,7 +27,7 @@ export default function Home() {
       {/* <div>
         <IdolHot />
       </div> */}
-      <div className="mt-8">
+      <div className="md:mt-8 mt-4">
         <NewsTab />
       </div>
     </div>

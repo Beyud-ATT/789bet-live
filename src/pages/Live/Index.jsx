@@ -25,7 +25,7 @@ const LivestreamDetail = ({ ...rest }) => {
   }, [isMobile, id, navigate]);
 
   return (
-    <div className="max-w-screen-xl mx-auto pt-4">
+    <div className="max-w-screen-xl mx-auto pt-4 sm:pt-2">
       <Row>
         <Col
           xs={{ flex: "100%" }}
