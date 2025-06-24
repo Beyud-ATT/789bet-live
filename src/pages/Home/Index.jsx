@@ -5,6 +5,7 @@ import NewsTab from "../../components/NewsTab";
 // import TopInteraction from "../../components/TopInteraction";
 import BannerSection from "./BannerSection";
 import LiveSection from "./LiveSection";
+import MobileGIF from "./MobileGIF";
 
 export default function Home() {
   return (
@@ -27,6 +28,9 @@ export default function Home() {
       {/* <div>
         <IdolHot />
       </div> */}
+      <div className="md:hidden block mt-2">
+        <MobileGIF />
+      </div>
       <div className="md:mt-8 mt-3">
         <NewsTab />
       </div>
